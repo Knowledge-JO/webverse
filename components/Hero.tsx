@@ -17,7 +17,7 @@ const Hero = () => {
                 <img src={Rectangel1.src} className="w-52 relative top-[100px]" alt="" />
                 <div className="text-center w-[800px]">
                     <p className="text-4xl font-bold mb-2">THIS IS THE WEBVERSE!</p>
-                    <p>The Webverse is a parallel dimension that embodies Entangle's Infrastructure. Central to the Webverse, is the Oracle, the ultimate source of truth and knowledge that orchestrates the intricate data highways. Are you brave enough to unlock the vision to fulfil your deepest desires?</p>
+                    <p>The Webverse is a parallel dimension that embodies Entangle&apos;s Infrastructure. Central to the Webverse, is the Oracle, the ultimate source of truth and knowledge that orchestrates the intricate data highways. Are you brave enough to unlock the vision to fulfil your deepest desires?</p>
                     <button className="border-[1px] border-white/50 px-3 py-1 mt-4">Learn more</button>
                 </div>
                 

@@ -15,7 +15,7 @@ const WeaversSection = () => {
                 </div>
             </div>
             <p className="text-center text-sm mt-8 px-10 lg:px-0">Weavers are a piece of energy which allow travellers to gain a previously unknown vision into an alternate reality.</p>
-            <div className="flex flex-col md:flex-row items-center  justify-center mt-14">
+            <div className="flex flex-col md:flex-row items-center justify-center mt-14">
                 <img src={space.src} className="w-96" alt="" />
                 <div className="ml-4 text-center md:text-left md:text-b">
                     <p className="font-bold text-5xl">5000</p>
@@ -25,11 +25,11 @@ const WeaversSection = () => {
 
             <div className="flex justify-center gap-5 text-white mt-32 absolute w-full bottom-[0] top-[470px] md:mt-14 px-10">
                 <div>
-                    <img src={purple.src} className="w-80" alt="" />
+                    <img src={purple.src} className="w-80 md:w-96" alt="" />
                     <p className="font-bold md:text-xl">4700 WEAVERS</p>
                 </div>
                 <div>
-                    <img src={blue.src} className="w-80" alt="" />
+                    <img src={blue.src} className="w-80 md:w-96" alt="" />
                     <p className="font-bold md:text-xl">300 AGENTS</p>
                 </div>
             </div>

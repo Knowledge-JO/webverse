@@ -3,11 +3,11 @@ import twitter from "@/public/twitter.png"
 import entangle from "@/public/entangle.png"
 const Footer = () => {
     return (
-       <div>
-            <div className="mt-[400px] flex items-center justify-center gap-20 mb-14">
-                <div>
-                    <p className="font-bold text-4xl w-[350px]">MEET CREATORS OF THE WEBVERSE</p>
-                    <div className="flex gap-5">
+       <div className="">
+            <div className="mt-[300px] md:mt-[400px] flex flex-col lg:flex-row items-center justify-center gap-20 mb-14 ">
+                <div className="text-center lg:text-left">
+                    <p className="font-bold px-10 md:px-0 md:text-4xl w-[350px]">MEET CREATORS OF THE WEBVERSE</p>
+                    <div className="flex justify-center lg:justify-start gap-5 px-10 md:px-0">
                         <img src={discord.src} className="w-5" alt="" />
                         <img src={twitter.src} className="w-5" alt="" />
                     </div>
@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className="text-center w-[350px]">
                         <p className="font-bold text-4xl">Entangle</p>
-                        <p className="">Customizable & Interoperable Data InfrastructureBuilt for Web3 and Institutions</p>
+                        <p className="px-10 md:px-0">Customizable & Interoperable Data InfrastructureBuilt for Web3 and Institutions</p>
                     </div>
                 </div>
             </div>

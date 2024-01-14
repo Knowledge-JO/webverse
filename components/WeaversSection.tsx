@@ -14,12 +14,12 @@ const WeaversSection = () => {
                     <p className="text-sm">Your guide to the webverse</p>
                 </div>
             </div>
-            <p className="text-center text-sm mt-8 px-10 lg:px-0">Weavers are a piece of energy which allow travellers to gain a previously unknown vision into an alternate reality.</p>
-            <div className="flex flex-col md:flex-row items-center justify-center mt-14">
-                <img src={space.src} className="w-96" alt="" />
-                <div className="ml-4 text-center md:text-left md:text-b">
+            <p className="text-center text-sm mt-8 px-10 lg:px-0 mb-10">Weavers are a piece of energy which allow travellers to gain a previously unknown vision into an alternate reality.</p>
+            <div className="flex flex-col md:flex-row items-center justify-center mt-1 px-10">
+                <img src={space.src} className="w-96 md:w-[470px]" alt="" />
+                <div className="ml-4 text-center md:text-left">
                     <p className="font-bold text-5xl">5000</p>
-                    <p className="text-[10px] pb-[100px]">WEAVERS SCATTERED ACROSS THE UNIVERSE</p>
+                    <p className="text-[10px] pb-[100px] md:pb-0">WEAVERS SCATTERED ACROSS THE UNIVERSE</p>
                 </div>
             </div>
 

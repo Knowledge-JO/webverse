@@ -11,6 +11,21 @@ const config: Config = {
       backgroundImage: {
         'heroImage': "url('/heroImage.svg')"
       },
+      keyframes: {
+
+        typing: {
+          "40%, 60%": {
+            left: "100%",
+          },
+          "100%": {
+            left: "0%",
+          },
+        },
+      },
+
+      animation: {
+        typing_anim: "typing 4s infinite",
+      },
     },
   },
   plugins: [],

@@ -12,7 +12,7 @@ const Hero = () => {
                 <Navbar/>
             </div>
             <motion.div {...fadeInAnimation} className="flex h-screen md:h-[500px] w-full justify-center items-center">
-                <p className="text-white font-bold text-4xl lg:text-9xl">WEBVERSE.</p>
+                <p className="text-white font-bold text-4xl lg:text-9xl overflow-hidden relative after:absolute after:left-0 after:bottom-0 after:h-[100%] after:w-[100%] after:bg-black after:border-l-2 after:border-grey-500 after:animate-typing_anim ">WEBVERSE.</p>
             </motion.div>
 
             <div className="px-10 md:px-0 flex items-center justify-between relative mb-14  md:mt-[-50px]">

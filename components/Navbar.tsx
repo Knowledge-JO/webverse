@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
         </div>
 
-        <motion.div {...fadeInAnimation} className={`${mobileActive ? "translate-y-0" : "translate-y-[-200%]"} duration-300 flex justify-center w-full mt-5 absolute`}>
+        <motion.div {...fadeInAnimation} className={`${mobileActive ? "translate-y-0" : "translate-y-[-200%]"} lg:hidden duration-300 flex justify-center w-full mt-5 absolute`}>
             <ul className="text-white bg-white/15 w-[300px] text-center rounded-lg py-3">
                 <li className="mb-3">Mint</li>
                 <li className="mb-3">Portal</li>

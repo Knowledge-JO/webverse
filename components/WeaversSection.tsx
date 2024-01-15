@@ -26,11 +26,11 @@ const WeaversSection = () => {
             <div className="flex justify-center gap-5 md:gap-12 text-white mt-32 absolute w-full bottom-[0] top-[480px] md:mt-14 px-10">
                 <div>
                     <img src={purple.src} className="w-80 md:w-96" alt="" />
-                    <p className="font-bold md:text-xl">4700 WEAVERS</p>
+                    <p className="font-bold md:text-lg">4700 WEAVERS</p>
                 </div>
                 <div>
                     <img src={blue.src} className="w-80 md:w-96" alt="" />
-                    <p className="font-bold md:text-xl">300 AGENTS</p>
+                    <p className="font-bold md:text-lg">300 AGENTS</p>
                 </div>
             </div>
             

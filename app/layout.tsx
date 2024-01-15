@@ -1,8 +1,32 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import localFont from "next/font/local"
 
-const inter = Inter({ subsets: ['latin'] })
+const sf = localFont({
+  src: [
+    {
+      path: "/fonts/SF-Pro-Display-Light.otf",
+      weight: "300",
+      style: "normal"
+    },
+    {
+      path: "/fonts/SF-Pro-Display-Semibold.otf",
+      weight: "500",
+      style: "semibold"
+    },
+    {
+      path: "/fonts/MonumentExtended-Regular.otf",
+      weight: "700",
+      style: "bold"
+    }
+  ]
+})
+
+// const monument = localFont({
+//   src: [
+    
+//   ]
+// })
 
 export const metadata: Metadata = {
   title: 'webverse',
@@ -16,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black text-white`}>{children}</body>
+      <body className={`${sf.className} bg-black text-white`}>{children}</body>
     </html>
   )
 }

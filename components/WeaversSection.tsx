@@ -34,7 +34,7 @@ const WeaversSection = () => {
                 </div>
             </div>
             
-            <div className="text-center text-white mt-[220px] md:mt-[400px] font-bold">
+            <div className="text-center text-white mt-[250px] md:mt-[420px] font-bold">
                 <button className="border-[1px] border-white/50 px-2 py-1">Go to Mint Page</button>
             </div>
         </div>

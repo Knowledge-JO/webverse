@@ -11,6 +11,10 @@ const config: Config = {
       backgroundImage: {
         'heroImage': "url('/heroImage.svg')"
       },
+      fontFamily: {
+        monumentRegular: ["MonumentExtended-Regular", "sans-serif"],
+        monumentbold: ["MonumentExtended-Ultrabold", "sans-serif"]
+      },
       keyframes: {
 
         typing: {
